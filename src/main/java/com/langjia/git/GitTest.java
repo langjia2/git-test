@@ -5,7 +5,7 @@ import java.util.Random;
 public class GitTest {
     public static void main(String[] args) {
         //1，用随机生成数方法，生成验证码
-        Random random = new Random();    //定义一个随机生成数技术，用来生成随机数
+        Random random = new Random();//定义一个随机生成数技术，用来生成随机数
         //定义一个可变长字符串StringBuilder用来接收生成的验证码
         StringBuilder stringBuilder = new StringBuilder();
         int a = random.nextInt(5);//用来随机生成一个数来确定唯一的字母在哪个位置
@@ -25,6 +25,6 @@ public class GitTest {
             stringBuilder.append(s1);//添加的可变长字符串中
         }
         String string = stringBuilder.toString();//将可变长字符串转化为字符串
-        System.out.println("用随机生成数方法，生成的验证码:"+string);//打印一下
+        System.out.println("用随机生成数方法，生成的验证码:"+string);// 打印一下
     }
 }
