@@ -25,6 +25,6 @@ public class GitTest {
             stringBuilder.append(s1);//添加的可变长字符串中
         }
         String string = stringBuilder.toString();//将可变长字符串转化为字符串
-        System.out.println("用随机生成数方法，生成的验证码:"+string);
+        System.out.println("用随机生成数方法，生成的验证码:"+string);//打印一下
     }
 }
